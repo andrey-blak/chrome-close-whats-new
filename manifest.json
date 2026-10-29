@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Close Chrome What's New",
+  "version": "1.0.0",
+  "description": "Automatically closes Chrome's What's New chrome://whats-new page.",
+  "permissions": ["tabs"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
